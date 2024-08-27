@@ -6,7 +6,7 @@
 /*   By: yawang <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/08 18:01:49 by yawang            #+#    #+#             */
-/*   Updated: 2024/08/27 15:43:27 by yawang           ###   ########.fr       */
+/*   Updated: 2024/08/27 18:32:27 by yawang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,5 +68,8 @@ typedef struct s_check
 	int		count_p;
 	char	**defmap;
 }	t_check;
+
+size_t	ft_arrlen(const char **arr);
+t_pxy	*get_position(char **map, char component);
 
 #endif
